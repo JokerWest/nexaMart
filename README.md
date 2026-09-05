@@ -2,17 +2,32 @@
 
 E-commerce backend built with Node.js, Express, and MongoDB.
 
-✨ Features
-Auth: Register, login, JWT with refresh tokens, logout
+---
 
-Roles: Customer and Admin with permissions
+## ✨ Features
 
-Products: CRUD, search, filter, pagination
+- **Auth**: Register, login, JWT with refresh tokens, logout
+- **Roles**: Customer and Admin with permissions
+- **Products**: CRUD, search, filter, pagination
+- **Orders**: Create, track status, stock validation
+- **Payments**: Paystack integration (test mode)
+- **Images**: Cloudinary upload
+- **Security**: Helmet, CORS, bcrypt, validation
 
-Orders: Create, track status, stock validation
+---
 
-Payments: Dummy Paystack integration (test mode)
+## 🛠️ Tech Stack
 
-Images: Cloudinary upload
+Node.js · Express · MongoDB · Mongoose · JWT · Cloudinary · Paystack
 
-Security: Helmet, CORS, bcrypt, validation
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone <repo-url>
+cd nexaMart/nexamart-backend
+npm install
+cp .env.example .env
+# Edit .env with your credentials
+npm run dev
